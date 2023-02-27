@@ -1,0 +1,29 @@
+.wrapper{
+    height: 56px;
+    padding: 0 16px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: aqua;
+
+    .header-1{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+
+        .menu-icon{
+            line-height: 0.5;
+            padding: 8px;
+        }
+
+        .logo{
+            line-height: 0.5;
+            padding: 18px 14px 18px 16px;
+        }
+
+        .avatar{
+            padding: 1px 6px;
+        }
+    }
+}

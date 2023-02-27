@@ -2,6 +2,8 @@
 
 *{
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 html{
@@ -9,7 +11,27 @@ html{
 }
 
 body{
+    font-family: 'Roboto' , sans-serif;
     font-size: 1.6rem;
     line-height: 1.5;
     text-rendering: optimizeSpeed;
+}
+
+//Fonts emmbeded
+@font-face {
+    font-family: Roboto;
+    src: url('/assets/fonts/KFOlCnqEu92Fr1MmEU9fBBc4.woff2');
+    font-weight: 700; //chu dam
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url('/assets/fonts/KFOmCnqEu92Fr1Mu4mxK.woff2');
+    font-weight: 400; //chu vuong
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url('/assets/fonts/KFOmCnqEu92Fr1Mu7GxKOzY.woff2');
+    font-weight: 300;
 }
