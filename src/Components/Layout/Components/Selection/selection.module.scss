@@ -1,0 +1,13 @@
+.wrapper{
+    height: 56px;
+    width: 150%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 12px;
+    margin-left : 0 12px;
+
+    :first-child {
+        margin-left : 12px;
+    }
+}
