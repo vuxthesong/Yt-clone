@@ -1,0 +1,59 @@
+.wrapper{
+    height: 320px;
+    width: 300px;
+
+    .thumbnail{
+        width: 100%;
+        height: 167px;
+        
+        img{
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+            border-radius: 1rem;
+        }
+    }
+
+    .info{
+        display: flex;
+        color: #686868;
+        padding-top: 1rem;
+
+        .avatar{
+            padding: 12px 12px 0 0;
+            img{
+                width: 36px;
+                height: 36px;    
+                object-fit: contain;
+            }
+        }
+
+        .over {
+            text-overflow: ellipsis;
+            
+
+            .tittle a{
+                margin-bottom: 0.5rem;
+                color: #000;
+                text-decoration: none;
+                font-size: 1.4rem;
+                line-height: 2rem;
+                font-weight: 500;
+                max-height: 4rem;
+                display: -webkit-box;
+                max-width: 242px;
+                -webkit-line-clamp: 2;
+                -webkit-box-orient: vertical;
+                overflow: hidden;
+                text-overflow: ellipsis;
+
+            }
+            
+            .chanel-name,.information{
+                font-size: 1.2rem;
+                line-height: 1.8rem;
+                font-weight: 400;
+            }
+        }
+    }
+}

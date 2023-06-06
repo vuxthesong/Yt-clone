@@ -9,4 +9,13 @@
     flex: 1;
     height: 705px;
     overflow: hidden;
+
+    .selection{
+        overflow-x: hidden;
+    }
+
+    .content{
+        padding-top: 2rem;
+        overflow: scroll;
+    }
 }

@@ -53,7 +53,7 @@ function Header() {
         </div>
         <div className={cx("avatar")}>
           <Avatar
-            url="https://yt3.ggpht.com/yti/AHXOFjULBeR_Qx1UQbUb0AXQV3P6krLMpgYgt43RNUD5Eg=s88-c-k-c0x00ffffff-no-rj-mo"
+            url="https://yt3.ggpht.com/yti/AHyvSCCOdAOWHSTj6s0ADJXwMgFc6e4dTJkVx8beMAHOFw=s88-c-k-c0x00ffffff-no-rj-mo"
             medium
           />
         </div>

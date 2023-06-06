@@ -18,8 +18,12 @@ function Home() {
           <Sidebar />
         </div>
         <div className={cx("main")}>
-          <Selection />
-          <Content />
+          <div className={cx("selection")}>
+            <Selection />
+          </div>
+          <div className={cx("content")}>
+            <Content />
+          </div>
         </div>
       </div>
     </div>

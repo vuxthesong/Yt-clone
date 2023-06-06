@@ -1,4 +1,8 @@
 .wrapper{
-    border: 1px solid red;
     height: 649px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    row-gap: 1rem;
+    column-gap: 1rem;
+    margin: 0 16px;
 }
